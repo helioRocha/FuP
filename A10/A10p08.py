@@ -1,8 +1,8 @@
 '''
 Fazer um programa que recebe as duas notas 
 de cada aluno de uma turma. O programa deve 
-mostrar a média geral da turma e a quantidade 
-de alunos com média maior ou igual a média 
+mostrar a mÃ©dia geral da turma e a quantidade 
+de alunos com mÃ©dia maior ou igual a mÃ©dia 
 da turma.'''
 n1 = []
 n2 = []

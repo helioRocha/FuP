@@ -1,6 +1,6 @@
 '''
-Faça um programa recebe os elementos de 
-uma lista com 10 posições. Seu programa deve 
+FaÃ§a um programa recebe os elementos de 
+uma lista com 10 posiÃ§Ãµes. Seu programa deve 
 mostrar a soma dos elementos dessa lista.'''
 
 lst = []

@@ -1,8 +1,8 @@
 '''
 Uma loja tem 5 tipos de produtos diferentes e 
-quer que você faça um programa para 
+quer que vocÃª faÃ§a um programa para 
 gerenciar os rendimentos. Cada produto deve 
-receber um preço do usuário. Além disso, em 
+receber um preÃ§o do usuÃ¡rio. AlÃ©m disso, em 
 cada venda, um comprador pode comprar 
 qualquer quantidade de produtos de qualquer 
 tipo. O programa deve mostrar o total de 
@@ -16,7 +16,7 @@ p4 = []
 p5 = []
 
 # input:
-# preço
+# preÃ§o
 # quantidade
 
 # output:

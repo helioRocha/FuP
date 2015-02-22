@@ -1,7 +1,7 @@
 '''
-Faça um programa que constrói uma lista 
-colocando o valor 0 nas posições pares e 1 nas 
-posições ímpares'''
+FaÃ§a um programa que constrÃ³i uma lista 
+colocando o valor 0 nas posiÃ§Ãµes pares e 1 nas 
+posiÃ§Ãµes Ã­mpares'''
 
 n = input('quantidade de elementos da lista: ')
 lst = []

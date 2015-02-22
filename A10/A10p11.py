@@ -1,5 +1,5 @@
 '''
-FaÁa um programa que recebe do usu·rio os 
+Fa√ßa um programa que recebe do usu√°rio os 
 elemento de um lista com 10 elementos e 
 ordena a lista em ordem crescente.'''
 
