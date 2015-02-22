@@ -1,5 +1,4 @@
-# FuP
------
+# **FuP**
 
 > - Introdução aos **Fu**ndamentos de **P**rogramação (**FuP**)
 > - Variáveis e Tipos de Dados
