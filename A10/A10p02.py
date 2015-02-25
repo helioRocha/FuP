@@ -18,3 +18,4 @@ for k in range(qA):
 		c += 1
 
 print c
+#
