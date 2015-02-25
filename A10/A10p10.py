@@ -11,3 +11,11 @@ Além disso, seu programa deve mostrar
 quantos gerentes ganhavam e quantos vão 
 ganhar mais do que a média salarial da 
 empresa.'''
+
+qtde = input('qtde de funcionarios: ')
+
+salVelho = 
+for i in range(qtde):
+	cargo = input('Gerente (True ou False): ')
+	sVelho = input('salario: ')
+	salVelho.append()
