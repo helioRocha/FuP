@@ -17,6 +17,7 @@ qtde = input('Quantidade de funcionarios: ')
 
 salVelho, salVelhoG = [], [] # Lista: Salario anterior de funcionarios (salVelho) e gerentes (salVelhoG)
 salNovo, salNovoG = [], [] # Lista: Salario posterior de funcionarios (salNovo) e gerentes (salNovoG)
+
 c1 = 0 # contador para soma dos salarios antigos
 for i in range(qtde):
 	print 'Se o funcionario for gerente entao tecle 1, caso contrario tecle ENTER.'
@@ -35,6 +36,7 @@ sV = salVelho + salVelhoG # Listas dos salarios anteriores de funcionarios e ger
 sN = salNovo + salNovoG # Listas dos salarios posteriores de funcionarios e gerentes concatendas
 
 msA = float(c1/qtde) # Media salarial anterior (funcionarios e gerentes)
+
 c1a = 0 # contador para gerentes com salario maior do que a media (periodo anterior ao aumento)
 for i2 in range(len(salVelhoG)):
 	if salVelhoG[i2]>msA:
@@ -45,6 +47,7 @@ for j in range(len(sN)):
 	c2 += sN[j]
 
 msP = float(c2/qtde) # Media salarial posterior (funcionarios e gerentes)
+
 c2a = 0 # contador para verificar gerentes com salario maior do que a media (periodo posterior ao aumento)
 for i3 in range(len(salVelhoG)):
 	if salVelhoG[i3]>msA:
@@ -58,4 +61,3 @@ print 'Quantidade de gerentes que ganhavam mais do que a media salarial (anterio
 print 'Gasto posterior, em R$:', c2
 print 'Media salarial posterior', msP
 print 'Quantidade de gerentes que vao ganhar mais do que a media salarial (posterior) da empresa:', c2a
-
