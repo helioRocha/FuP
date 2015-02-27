@@ -7,11 +7,9 @@ qE = input('Quantidade de elementos: ')
 lst = []
 for i in range(qE):
     lst.append(input('Inserir elemento: '))
-
-
     
 print sorted(lst, reverse = False)
-lst.sort(reverse = False)
+#lst.sort(reverse = False)
 
 '''
 Modifique o programa anterior para ordernar 
