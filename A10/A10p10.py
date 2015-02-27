@@ -35,7 +35,7 @@ for i in range(qtde):
 sV = salVelho + salVelhoG # Listas dos salarios anteriores de funcionarios e gerentes concatendas
 sN = salNovo + salNovoG # Listas dos salarios posteriores de funcionarios e gerentes concatendas
 
-msA = float(c1/qtde) # Media salarial anterior (funcionarios e gerentes)
+msA = float(c1)/qtde # Media salarial anterior (funcionarios e gerentes)
 
 c1a = 0 # contador para gerentes com salario maior do que a media (periodo anterior ao aumento)
 for i2 in range(len(salVelhoG)):
@@ -46,7 +46,7 @@ c2 = 0 # contador para soma dos salarios novos
 for j in range(len(sN)):
 	c2 += sN[j]
 
-msP = float(c2/qtde) # Media salarial posterior (funcionarios e gerentes)
+msP = float(c2)/qtde # Media salarial posterior (funcionarios e gerentes)
 
 c2a = 0 # contador para verificar gerentes com salario maior do que a media (periodo posterior ao aumento)
 for i3 in range(len(salVelhoG)):
