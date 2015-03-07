@@ -40,20 +40,3 @@ print
 print 'Quantidade de elementos da lista:', q
 print 'Lista original:', original
 print 'Lista invertida:', nova
-
-###########################################################
-'''
-# Lista original
-q = input('quantidade de elementos: ')
-# 'append' alternativo
-o = [0]*q # 'pre-alocacao' de lista
-for i in range(q):
-    o[q] = input('Digite um numero inteiro: ')
-
-j = len(o) - 1
-n = [0]*len(o)
-c = 0
-while j >= 0:
-    n[c] = o[j]
-    j-=1
-    c+=1'''
