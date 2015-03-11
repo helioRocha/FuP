@@ -20,9 +20,22 @@ for i in range(q):
 v = input('Informar um valor: ')
 print
 
-# verifica se o elemento informado consta na lista (apenas uma resposta)
-#for i in range(q):
-if v in lst:
+# # verifica se o elemento informado consta na lista (apenas uma resposta)
+# #for i in range(q):
+# if v in lst:
+#     print 'ACHADO'
+# else:
+#     print 'NAO ACHADO'
+
+#print lst
+
+tam = len(lst) # tamanho da lista
+c = 0
+for i in range(tam):
+    if v == lst[i]:
+        c += 1
+
+if c > 0:
     print 'ACHADO'
 else:
     print 'NAO ACHADO'
