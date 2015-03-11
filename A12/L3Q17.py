@@ -28,11 +28,11 @@ print
 
 #print lst
 
-tam = len(lst) # tamanho da lista
-c = 0
+tam = len(lst)  # tamanho da lista
+achei = 0  # contador para verificacao de sucesso na procura (acima de 0 indica sucesso)
 for i in range(tam):
-    if v == lst[i]:
-        c += 1
+    if v == lst[i]: # se valor constar na lista:
+        achei += 1 # valor achado
 
-if c > 0: print 'ACHADO'
+if achei > 0: print 'ACHADO'
 else: print 'NAO ACHADO'
