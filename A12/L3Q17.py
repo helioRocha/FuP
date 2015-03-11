@@ -26,8 +26,6 @@ print
 # else:
 #     print 'NAO ACHADO'
 
-#print lst
-
 tam = len(lst)  # tamanho da lista
 achei = 0  # contador para verificacao de sucesso na procura (acima de 0 indica sucesso)
 for i in range(tam):
