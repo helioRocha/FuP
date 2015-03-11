@@ -34,7 +34,5 @@ for i in range(tam):
     if v == lst[i]:
         c += 1
 
-if c > 0:
-    print 'ACHADO'
-else:
-    print 'NAO ACHADO'
+if c > 0: print 'ACHADO'
+else: print 'NAO ACHADO'
