@@ -7,8 +7,7 @@
  deve  ser “X” ou “O” e seu programa deve dizer quem e o
  jogador  vencedor. Para fazer a verificacao de vitoria seu
  programa  deve verificar as diagonais principal e
- secundaria e tambem cada linha e coluna.
-'''
+ secundaria e tambem cada linha e coluna.'''
 
 v = [[], [], []]  # criar matriz do jogo
 for i in range(3):  # com 3 linhas

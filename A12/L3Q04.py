@@ -9,8 +9,7 @@ posicoes impares o triplo.
 
 Exemplo
 k = [3, 4, 5, ...]
-l = [6, 12, 10, ...]
-'''
+l = [6, 12, 10, ...]'''
 
 j = 30 # input('tamanho da lista de inteiros: ')
 

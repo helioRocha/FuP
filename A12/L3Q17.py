@@ -5,8 +5,7 @@
 17) Escreva um programa que receba uma lista de quantidade
 de elementos digitada pela usuario e depois recebe um outro
 valor. O programa deve mostrar na tela "ACHADO" se o valor
-estiver na lista e "NAO ACHADO" caso contrario.
-'''
+estiver na lista e "NAO ACHADO" caso contrario.'''
 
 q = input('Quantidade de elementos da lista: ')
 print

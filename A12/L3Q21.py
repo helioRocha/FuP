@@ -9,8 +9,7 @@ ma deve calcular e mostrar:
 * A quantidade de produtos com preco inferior a R$ 50,00;
 * O nome dos produtos com preco entre R$ 50,00 e R$100,00;
 * A media dos precos dos produtos com preco superior a
-  R$ 100,00.
-'''
+  R$ 100,00.'''
 
 nome = [] # lista contendo nomes dos produtos
 preco = [] # lista contendo precos dos produtos
